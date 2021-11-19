@@ -114,6 +114,6 @@ body {
 }
 @media screen and (max-width: 400px) {
 	.header__nav {
-		font-size: 0.7em;
+		font-size: 0.5em;
 	}
 }
