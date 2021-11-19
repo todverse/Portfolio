@@ -9,6 +9,7 @@ body {
 	width: 100%;
 	height: 50px;
 	display: flex;
+	font-size: 1em;
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
@@ -100,7 +101,19 @@ body {
 	background-color: black;
 }
 @media screen and (max-width: 768px) {
+	.main__aboutMe {
+		width: 80%;
+	}
+	.main__textName {
+		width: 50%;
+	}
 	.main__imgAbout {
 		width: 200px;
+		float: none;
+	}
+}
+@media screen and (max-width: 400px) {
+	.header__nav {
+		font-size: 0.7em;
 	}
 }
