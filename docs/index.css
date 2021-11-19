@@ -20,8 +20,14 @@ body {
 	display: flex-box;
 	text-align: center;
 	color: rgba(0,0,0,0.3);
+	font-size: 1em;
 	font-weight: bold;
 	text-decoration: none;
+}
+.header_ {
+	height: 40px;
+	line-height: 40px;
+	font-size: 0.95em;
 }
 .selected {
 	color: rgba(0,0,0,0.9);
@@ -37,6 +43,7 @@ body {
 	margin-bottom: 0px;
 	border: none;
 	border: 2px solid rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.3);
 }
 .main {
 	width: 85%;
@@ -100,6 +107,26 @@ body {
 	height: 350px;
 	background-color: black;
 }
+.mainFlex {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+}
+.mainFlex__work {
+	margin-top: 50px;
+}
+.work {
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 3px 7px 3px rgba(0,0,0,0.6);
+}
+.premain {
+	width: 85%;
+	margin: auto;
+	font-family: monospace;
+	text-align: center;
+}
 @media screen and (max-width: 768px) {
 	.main__aboutMe {
 		width: 100%;
@@ -111,9 +138,21 @@ body {
 		width: 200px;
 		float: none;
 	}
+	.mainFlex {
+		display: block;
+	}
+	.mainFlex__work {
+		width: 85%;
+		margin: auto;
+		display: block;
+		margin-top: 20px;
+	}
 }
 @media screen and (max-width: 400px) {
 	.header__nav {
-		font-size: 0.5em;
+		font-size: 0.6em;
+	}
+	.premain {
+		font-size: 0.7em;
 	}
 }
