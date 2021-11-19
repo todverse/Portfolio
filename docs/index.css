@@ -24,11 +24,6 @@ body {
 	font-weight: bold;
 	text-decoration: none;
 }
-.header_ {
-	height: 40px;
-	line-height: 40px;
-	font-size: 0.95em;
-}
 .selected {
 	color: rgba(0,0,0,0.9);
 }
@@ -154,8 +149,5 @@ body {
 	}
 	.premain {
 		font-size: 0.7em;
-	}
-	.header_ {
-		font-size: 0.9em;
 	}
 }
