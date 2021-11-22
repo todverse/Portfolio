@@ -122,6 +122,26 @@ body {
 	font-family: monospace;
 	text-align: center;
 }
+.skills_head {
+	width: 20%;
+	margin: auto;
+	margin-top: 20px;
+}
+.skills_text {
+	width: 60%;
+	margin: auto;
+	margin-top: 40px;
+}
+.contact__vk {
+	text-decoration: underline;
+	color: black;
+}
+.contact__vk:hover {
+	color: gray;
+}
+.contact_text {
+	margin-left: 20%;
+}
 @media screen and (max-width: 768px) {
 	.main__aboutMe {
 		width: 100%;
