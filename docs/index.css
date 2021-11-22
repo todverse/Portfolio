@@ -89,12 +89,6 @@ body {
 	font-size: 1.2em;
 	margin-left: 6%;
 }
-.main__imgAbout {
-	width: 350px;
-	margin: 0px;
-	box-shadow: 5px 5px 3px rgba(0,0,0,0.4);
-	float: right;
-}
 .imgMain {
 	margin: auto;
 	margin-top: 30px;
@@ -106,6 +100,10 @@ body {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	grid-template-rows: 50% 50%;
+}
+.mainFlex__text {
+	font-size: 1.5em;
+	color: rgba(0,0,0,0.8);
 }
 .mainFlex__work {
 	margin-top: 50px;
@@ -128,6 +126,9 @@ body {
 	margin-top: 20px;
 }
 .skills_text {
+	color: rgba(0,0,0,0.8);
+	font-family: monospace;
+	font-size: 1.3em;
 	width: 60%;
 	margin: auto;
 	margin-top: 40px;
@@ -140,6 +141,9 @@ body {
 	color: gray;
 }
 .contact_text {
+	color: rgba(0,0,0,0.8);
+	font-family: monospace;
+	font-size: 1.3em;
 	margin-left: 20%;
 }
 @media screen and (max-width: 768px) {
@@ -148,10 +152,6 @@ body {
 	}
 	.main__textName {
 		width: 100%;
-	}
-	.main__imgAbout {
-		width: 200px;
-		float: none;
 	}
 	.mainFlex {
 		display: block;
